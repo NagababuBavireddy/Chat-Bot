@@ -1,0 +1,506 @@
+{
+   "intents": [
+           {
+                   "tag": "greeting",
+                   "patterns": [
+                           "Hi",
+                           "How are you",
+                           "Is anyone there?",
+                           "Hello",
+                           "Good day",
+                           "Whats up",
+                           "how are ya",
+                           "heyy",
+                           "hii",
+                           "HII",
+                           "whatsup"
+                   ],
+                   "responses": [
+                           "Hello!",
+                           "Good to see you again!",
+                           "Hi there, how can I help?"
+                   ]
+           },
+           {
+                   "tag": "goodbye",
+                   "patterns": [
+                           "see you",
+                           "bye bye",
+                           "See you later",
+                           "Goodbye",
+                           "I am Leaving",
+                           "Bye",
+                           "Have a Good day",
+                           "talk to you later",
+                           "tyyl",
+                           "i got to go",
+                           "gtg"
+                   ],
+                   "responses": [
+                           "Sad to see you go :(",
+                           "Talk to you later",
+                           "Goodbye!",
+                           "Come back soon"
+                   ]
+           },
+           {
+            "tag": "creator",
+            "patterns": [
+
+                    "what is the name of your developers",
+                    "what is the name of your creators",
+                    "what is the name of the developers",
+                    "what is the name of the creators",
+                    "who created you",
+                    "your developers",
+                    "your creators",
+                    "who are your developers",
+                    "developers",
+                    "you are made by",
+                    "you are made by whom",
+                    "who created you",
+                    "who create you",
+                    "creators",
+                    "who made you",
+                    "who designed you"
+            ],
+            "responses": [
+                    "batch 57 of CSE6 developed me for their minor project",
+                    "I was developed by batch 57 of CSE6"
+            ]
+    },
+           {
+                   "tag": "name",
+                   "patterns": [
+                           "name",
+                           "your name",
+                           "do you have a name",
+                           "what are you called",
+                           "what is your name",
+                           "what should I call you",
+                           "whats your name?",
+                           "what are you",
+                           "who are you",
+                           "who is this",
+                           "what am i chatting to",
+                           "who am i taking to",
+                           "what are you"
+                   ],
+                   "responses": [
+                           "You can call me Amigo.",
+                           "I'm Amigo",
+                           "I'm Bot aka Amigo Chatbot."
+                   ]
+           },
+           {
+                   "tag": "hours",
+                   "patterns": [
+                           "timing of college",
+                           "what is college timing",
+                           "working days",
+                           "when are you guys open",
+                           "what are your hours",
+                           "hours of operation",
+                           "when is the college open",
+                           "college timing",
+                           "what about college timing",
+                           "is college open on saturday",
+                           "tell something about college timing",
+                           "what is the college  hours",
+                           "when should i come to college",
+                           "when should i attend college",
+                           "what is my college time",
+                           "college timing",
+                           "timing college"
+                   ],
+                   "responses": [
+                           "College is open 9am-5pm Monday-Saturday!"
+                   ]
+           },
+           {
+                   "tag": "number",
+                   "patterns": [
+
+                           "more info",
+                           "contact info",
+                           "how to contact college",
+                           "college telephone number",
+                           "college number",
+                           "What is your contact no",
+                           "Contact number?",
+                           "how to call you",
+                           "College phone no?",
+                           "how can i contact you",
+                           "Can i get your phone number",
+                           "how can i call you",
+                           "phone number",
+                           "phone no",
+                           "call",
+                           "mobile"
+                   ],
+                   "responses": [
+                           "You can contact at +91-1234567890"
+                   ]
+           },
+           {
+                   "tag": "course",
+                   "patterns": [
+                           "list of courses",
+                           "list of courses offered",
+                           "list of courses offered in rgukt ongole",
+                           "what are the courses offered in your college?",
+                           "courses?",
+                           "courses offered",
+                           "courses offered in rgukt ongole",
+                           "courses you offer",
+                           "branches?",
+                           "courses available at rgukt ongole?",
+                           "branches available at rgukt ongole?",
+                           "what are the courses in rgukt ongole?",
+                           "what are branches in rgukt ongole?",
+                           "what are courses in rgukt ongole?",
+                           "branches available in iiit ongole?",
+                           "can you tell me the courses available in iiit rgukt ongole?",
+                           "can you tell me the branches available in iiit rgukt ongole?",
+                           "computer science engineering?",
+                           "cse",
+                           "it",
+                           "IT"
+                   ],
+                   "responses": [
+                           "RGUKT Ongole offers Civil Engineering, Mechanical Engineering, Electrical Engineering, Computer Science Engineering, chemical engineering, metallurgical material engineering, Electrical electronic engineering"
+                   ]
+           },
+           {
+                  "tag": "fees",
+                  "patterns": [
+                           "information about fee",
+                           "information on fee",
+                           "tell me the fee",
+                           "college fee",
+                           "fee per semester",
+                           "what is the fee of each semester",
+                           "what is the fees of each year",
+                           "what is fee",
+                           "what is the fees",
+                           "how much is the fees",
+                           "fees for first year",
+                           "fees",
+                           "about the fees",
+                           "tell me something about the fees"
+                   ],
+                  "responses": [
+                    "For Fee detail visit <a target=\"_blank\" href=\"https://www.rguktong.ac.in/\"> here</a>"
+            ]
+            
+         },
+         {
+                           "tag": "location",
+                           "patterns": [
+                                 "where is the college located",
+                                 "college is located at",
+                                 "where is college",
+                                 "where is college located",
+                                 "address of college",
+                                 "how to reach college",
+                                 "college location",
+                                 "college address",
+                                 "wheres the college",
+                                 "how can I reach college",
+                                 "whats is the college address",
+                                 "what is the address of college",
+                                 "address",
+                                 "location"
+                           ],
+                           "responses": [
+                                 "RGUKT Ongole is located in Kurnool road, ongole, prakasam(dt.)"
+                           ]
+                  },
+                  {
+                           "tag": "hostel",
+                           "patterns": [
+                                 "hostel facility",
+                                 "hostel servive",
+                                 "hostel location",
+                                 "hostel address",
+                                 "hostel facilities",
+                                 "hostel fees",
+                                 "Does college provide hostel",
+                                 "Is there any hostel",
+                                 "Where is hostel",
+                                 "do you have hostel",
+                                 "do you guys have hostel",
+                                 "hostel",
+                                 "hostel capacity",
+                                 "what is the hostel fee",
+                                 "how to get in hostel",
+                                 "what is the hostel address",
+                                 "how far is hostel from college",
+                                 "hostel college distance",
+                                 "where is the hostel",
+                                 "how big is the hostel",
+                                 "distance between college and hostel",
+                                 "distance between hostel and college"
+                           ],
+                           "responses": [
+                                 "Rajiv Gandhi University of Knowledge Technologies Ongole does  provide hostel facility"
+                           ]
+                           
+                  },
+                  {
+                     "tag": "document",
+                     "patterns": [
+                             "document to bring",
+                             "documents needed for admision",
+                             "documents needed at the time of admission",
+                             "documents needed during admission",
+                             "documents required for admision",
+                             "documents required at the time of admission",
+                             "documents required during admission",
+                             "What document are required for admission",
+                             "Which document to bring for admission",
+                             "documents",
+                             "what documents do i need",
+                             "what documents do I need for admission",
+                             "documents needed"
+                     ],
+                     "responses": [
+                             "10th class mark list, 10th class hall ticket, TC of 10th class, income certificate, caste certificate, ration card, passport size photos of students and parents "
+                     ]
+             },
+             {
+               "tag": "floors",
+               "patterns": [
+                       "size of campus",
+                       "building size",
+                       "How many floors does college have",
+                       "floors in college",
+                       "floors in college",
+                       "how tall is rgukt ongole college building",
+                       "floors"
+               ],
+               "responses": [
+                       "RGUKT Ongole has total 4 floors "
+               ]
+       },
+       {
+         "tag": "library",
+         "patterns": [
+                 "is there any library",
+                 "library facility",
+                 "library facilities",
+                 "do you have library",
+                 "does the college have library facility",
+                 "college library",
+                 "where can i get books",
+                 "book facility",
+                 "Where is library",
+                 "Library",
+                 "Tell me about library",
+                 "how many libraries"
+         ],
+         "responses": [
+                 "There is one library on fourth floor in E block."
+         ]
+ },
+ {
+   "tag": "canteen",
+   "patterns": [
+           "food facilities",
+           "canteen facilities",
+           "canteen facility",
+           "is there any canteen",
+           "Is there a cafetaria in college",
+           "Does college have canteen",
+           "Where is canteen",
+           "where is cafetaria",
+           "canteen",
+           "Cafetaria"
+   ],
+   "responses": [
+           "RGUKT Ongole has canteen with variety of food available"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "menu",
+   "patterns": [
+           "food menu",
+           "food in canteen",
+           "Whats there on menu",
+           "what is available in college canteen",
+           "what foods can we get in college canteen"
+   ],
+   "responses": [
+           "we serve Puffs, Gobi Manchuria, Chicken, Noodles, Samosa, Dal Rice and many more on menu"
+   ]
+},
+{
+   "tag": "placement",
+   "patterns": [
+           "What is college placement",
+           "Which companies visit in college",
+           "What is average package",
+           "companies visit",
+           "package",
+           "placement",
+           "recruitment",
+           "companies"
+   ],
+   "responses": [
+           "We are very proud to say that every year there are about 500+ placements bagged by our students.",
+           "There are a handful of companies visiting our college for recruiting number of students based on their talents."
+   ]
+},
+{
+   "tag": "admission",
+   "patterns": [
+           "what is the process of admission",
+           "what is the admission process",
+           "How to take admission in your college",
+           "What is the process for admission",
+           "admission",
+           "admission process"
+   ],
+   "responses": [
+           "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=https://www.rguktong.ac.in/admissions/available.php\">website</a>"
+   ]
+},
+{
+   "tag": "facilities",
+   "patterns": [
+           "What facilities college provide",
+           "College facility",
+           "What are college facilities",
+           "facilities",
+           "facilities provided"
+   ],
+   "responses": [
+           "RGUKT ongole provides fully AC class rooms with internet connection, smart classroom, Auditorium, library,canteen"
+   ]
+},
+{
+   "tag": "uniform",
+   "patterns": [
+           "college dress code",
+           "college dresscode",
+           "what is the uniform",
+           "can we wear casuals",
+           "Does college have an uniform",
+           "Is there any uniform",
+           "uniform",
+           "what about uniform",
+           "do we have to wear uniform",
+           "is uniform mandatory"
+   ],
+   "responses": [
+           "yes,RGUKT Ongole does have uniform"
+   ]
+},
+{
+   "tag": "random",
+   "patterns": [
+           
+           "I love you",
+           "Will you marry me",
+           "Do you love me",
+           "Do you like me?",
+           "What is your favourite color?",
+           "What is your age?",
+           "Do you know me?",
+           "Who is your fav hero?"
+   ],
+   "responses": [
+           "I am not programmed for this please ask appropriate query"
+   ]
+},
+
+{
+   "tag": "vacation",
+   "patterns": [
+           "holidays",
+           "when will semester starts",
+           "when will semester end",
+           "when is the holidays",
+           "list of holidays",
+           "about vacations",
+           "about holidays",
+           "When is vacation",
+           "When is holidays",
+           "how long will be the vacation"
+   ],
+   "responses": [
+           "Please refer academic calendar at RGUKT Ongole official website"
+   ]
+},
+{
+   "tag": "salutaion",
+   "patterns": [
+           "okk",
+           "okie",
+           "nice work",
+           "well done",
+           "good job",
+           "thanks for the help",
+           "Thank You",
+           "its ok",
+           "Thanks",
+           "k",
+           "ok",
+           "okay"
+   ],
+   "responses": [
+           "I am glad I helped you",
+           "welcome, anything else i can assist you with?"
+   ]
+},
+{
+   "tag": "task",
+   "patterns": [
+           "what can you do",
+           "what are the thing you can do",
+           "things you can do",
+           "what can u do for me",
+           "how u can help me",
+           "why i should use you"
+   ],
+   "responses": [
+           "You can ask me questions regarding college, and i will try to answer them"
+   ]
+},
+
+{
+   "tag":"ragging",
+   "patterns":[
+           "ragging",
+           "is ragging practice active in college",
+           "does college have any antiragging facility",
+           "is there any ragging cases",
+           "is ragging done here",
+           "ragging juniors",
+           "ragging history",
+           "ragging incidents"
+           
+   ],
+   "responses": [
+           "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+   ]
+
+},
+{
+   "tag":"attendance",
+   "patterns":[
+           "what percentage of attendance is needed",
+           "percentage of attendance is mandatory",
+           "how much percentage of attendance should we have",
+           "attendance",
+           "attendance percentage",
+           "is 75 percentage of attendance enough"
+           
+   ],
+   "responses":[
+           "75 percentage of attendance is mandatory in RGUKT Ongole."
+   ]
+}
+]
+}
